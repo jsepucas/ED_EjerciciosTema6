@@ -11,7 +11,7 @@ public class ListaNumerosGUI extends JFrame {
     public ListaNumerosGUI() {
         setTitle("Visualización de Listas de Números");
         setSize(500, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new GridLayout(1, 2, 10, 10));  // Dos columnas para cada lista
 
         // Área para ArrayList
