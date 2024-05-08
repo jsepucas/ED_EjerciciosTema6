@@ -56,7 +56,7 @@ public class GestorCadenasOrdenadasGUI extends JFrame {
     private void eliminarCadena() {
         gestorDeCadenas.eliminarCadena(entradaTextField.getText());
         entradaTextField.setText("");
-        actualizarCadenas();
+        actualizarCadenas;
     }
 
     private void actualizarCadenas() {
